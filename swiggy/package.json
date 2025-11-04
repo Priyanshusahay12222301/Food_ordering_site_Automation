@@ -1,0 +1,17 @@
+{
+  "name": "swiggy-automation",
+  "version": "1.0.0",
+  "description": "Swiggy restaurant search automation",
+  "main": "test-restaurant-search.js",
+  "scripts": {
+    "test": "node test-restaurant-search.js",
+    "search": "node test-restaurant-search.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.15.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^119.0.0"
+  }
+}
+

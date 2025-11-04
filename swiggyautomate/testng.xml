@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwiggyAutomationSuite" verbose="1">
+    <test name="SwiggyEndToEndTest">
+        <classes>
+            <class name="SwiggyAutomation"/>
+        </classes>
+    </test>
+    <test name="SwiggySanityTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="SwiggyAutomation"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+    </listeners>
+</suite>
